@@ -1,1 +1,2 @@
 gTTS
+discord.py[voice]
