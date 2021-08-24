@@ -1,0 +1,23 @@
+{
+  "name": "TTSheat",
+  "description": "Discord TTS on heroku, Powered by gTTS module.",
+  "repository": "https://github.com/sheat-git/TTSheat",
+  "keywords": ["python", "discord", "bot", "TTS"],
+  "buildpacks": [
+    {
+      "url": "https://github.com/heroku/heroku-buildpack-python.git"
+    },
+    {
+      "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest.git"
+    },
+    {
+      "url": "https://github.com/Crazycatz00/heroku-buildpack-libopus.git"
+    }
+  ],
+  "env": {
+    "DISCORD_BOT_TOKEN": {
+    },
+    "DISCORD_BOT_ID": {
+    },
+  }
+}
