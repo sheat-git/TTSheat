@@ -1,2 +1,2 @@
 # TTSheat
-TTSheat bot source code
+This is discord bot for TTS.
